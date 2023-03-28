@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exercise_2.Model">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="DataUpdates" Type="Exercise_2.View">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataUpdates" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exercise_2.View">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="UserEvent" Type="Exercise_2.Presenter">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.464" Y="0.029" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DataUpdates" Type="Exercise_2.Model">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.183" Y="0.05" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserEvent" />
+      <Property Name="DataUpdates" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exercise_2.Presenter">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
